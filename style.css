@@ -16,6 +16,7 @@
     color: white;
 
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 p {
@@ -111,6 +112,7 @@ main {
 
 .title > div {
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -118,13 +120,9 @@ main {
     margin: 5px 40px 5px 40px;
 }
 
-.title u {
+.title > div > div > div > h1 > u {
     font-family: JetBrains, sans-serif;
-    font-size: 64px;
-}
-
-.title ul {
-    padding: 20px;
+    font-size: 55px;
 }
 
 .arrow-container {
@@ -407,6 +405,7 @@ main {
 
 @media only screen and (max-width: 700px) {
     .title > div {
+        align-items: normal;
         flex-direction: column;
     }
 
