@@ -16,7 +16,6 @@
     color: white;
 
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 p {
@@ -98,6 +97,7 @@ u {
 }
 
 main {
+    overflow-x: hidden;
     width: 100%;
     background-color: rgb(20, 20, 20);
 }
@@ -122,7 +122,7 @@ main {
 
 .title > div > div > div > h1 > u {
     font-family: JetBrains, sans-serif;
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .arrow-container {
