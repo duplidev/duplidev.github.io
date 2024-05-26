@@ -326,7 +326,7 @@ main {
     display: flex;
 }
 
-.centered-socials > div > div {
+.centered-socials > div > a {
     display: flex;
     align-items: center;
     margin: 5px;
@@ -336,17 +336,17 @@ main {
     transition-duration: 0.2s;
 }
 
-.centered-socials > div > div:hover {
+.centered-socials > div > a:hover {
     background-color: rgb(40, 40, 40);
 }
 
-.centered-socials > div > div > a {
-    margin: 0 3px 3px;
+.centered-socials > div > a > p {
+    margin: 3px;
 }
 
-.centered-socials > div > div > img {
+.centered-socials > div > a > img {
+    margin: 3px;
     width: 20px;
-    margin: 3px 3px 0;
 }
 
 .footer {
@@ -441,7 +441,7 @@ main {
         height: auto;
     }
 
-    .centered-socials > div > div {
+    .centered-socials > div > a {
         flex-direction: column;
     }
 }
