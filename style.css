@@ -155,9 +155,15 @@ main {
 }
 
 .about {
+    scroll-margin-top: 66px;
     display: flex;
     justify-content: center;
     background-color: rgb(106, 166, 255);
+}
+
+.about:before {
+    height: 100px;
+    content: "";
 }
 
 .centered-about {
@@ -182,6 +188,7 @@ main {
 }
 
 .projects {
+    scroll-margin-top: 66px;
     display: flex;
     justify-content: center;
 }
@@ -200,10 +207,19 @@ main {
     margin: 10px;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(-30px) }
+    to { opacity: 1; transform: translateX(0px) }
+}
+
 .projects-list > div {
     position: relative;
     width: calc(33.33% - 20px);
     padding: 10px;
+}
+
+.in-view {
+    animation: fadeIn 0.2s ease-out;
 }
 
 .project-images {
@@ -264,6 +280,7 @@ main {
 }
 
 .technologies {
+    scroll-margin-top: 66px;
     display: flex;
     justify-content: center;
     background-color: rgb(106, 166, 255);
@@ -306,6 +323,7 @@ main {
 }
 
 .socials {
+    scroll-margin-top: 66px;
     display: flex;
     justify-content: center;
 }
