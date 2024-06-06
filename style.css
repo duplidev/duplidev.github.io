@@ -42,7 +42,7 @@ u {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    width: 800px;
+    width: 1000px;
     padding: 10px;
 }
 
@@ -169,7 +169,7 @@ main {
 .centered-about {
     display: flex;
     justify-content: center;
-    width: 800px;
+    width: 1000px;
 }
 
 .about-box {
@@ -194,7 +194,7 @@ main {
 }
 
 .centered-projects {
-    width: 800px;
+    width: 1000px;
 }
 
 .centered-projects > h1 {
@@ -289,7 +289,7 @@ main {
 .centered-technologies {
     display: flex;
     justify-content: center;
-    width: 800px;
+    width: 1000px;
 }
 
 .technologies-box {
@@ -333,7 +333,7 @@ main {
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    width: 800px;
+    width: 1000px;
 }
 
 .centered-socials > h2 {
@@ -376,7 +376,7 @@ main {
 .centered-footer {
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 1000px;
 }
 
 .footer-nav {
