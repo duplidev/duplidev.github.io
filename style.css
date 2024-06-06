@@ -427,6 +427,11 @@ main {
         flex-direction: column;
     }
 
+    @keyframes slideIn {
+        from {transform: translateY(-400px)  }
+        to {transform: translateY(0)}
+    }
+
     .navmenu {
         right: 0;
         top: 100%;
@@ -436,6 +441,8 @@ main {
         position: absolute;
         flex-direction: column;
         box-shadow: 0 20px 20px -15px black;
+        animation: slideIn 0.3s ease;
+        z-index: -10;
     }
 
     .navmenu a {
